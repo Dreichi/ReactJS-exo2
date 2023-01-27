@@ -1,23 +1,15 @@
-import logo from './logo.svg';
 import './App.css';
+import Count from './Components/Count';
+
+//Ajoutez une fonctionnalité qui permet de saisir une valeur de départ pour le compteur à l'aide d'un champ de formulaire. Utilisez les props pour passer cette valeur de départ au composant, et utilisez cette valeur pour initialiser l'état lorsque le composant est monté.
+
+
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <Count />
+      
     </div>
   );
 }
